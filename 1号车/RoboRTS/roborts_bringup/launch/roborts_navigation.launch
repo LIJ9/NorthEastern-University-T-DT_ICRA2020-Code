@@ -1,0 +1,52 @@
+<!--WL新建导航节点  -->
+<launch>
+  <master auto="start"/>
+  <arg name="map" value="icra2020_zww"/>
+  
+  <param name="/use_sim_time" value="false"/>
+
+  <include file="$(find roborts_bringup)/launch/lidar.launch" />
+
+  <!--Load parameters for localization node  -->
+  <rosparam command="load" file="$(find roborts_localization)/config/localization.yaml" />
+  <rosparam command="load" file="$(find roborts_localization)/amcl/config/amcl.yaml" />
+
+  
+  <!-- Publish static tf -->
+  <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" args="0.1 0.0 0.21 0.0 0.0 0.0  /base_link /laser  100"/>    
+  <node pkg="tf" type="static_transform_publisher" name="base_link_camera_link_broadcaster"
+          args="0.0  0.0 0.0  0.0  0.0 0.0 /base_link /camera0 100" />
+  <!--include file="$(find roborts_bringup)/launch/static_tf.launch" /-->
+
+
+ <!--node pkg="tf" type="static_transform_publisher" name="base_link_to_imu_link" args="0.0 0.0 0.0 0.0 0.0 0.0 /base_link /imu_link 100"/-->
+
+
+  <!-- Run the map server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find roborts_bringup)/maps/$(arg map).yaml" respawn="false" />
+
+
+  <!-- Run the localization node -->
+  <node pkg="roborts_localization" type="localization_node" name="localization_node" respawn="false" output="screen"/>
+
+  <!-- Run the global planner Node -->
+  <node pkg="roborts_planning" type="global_planner_node" name="global_planner_node" respawn="false" />
+
+  <!-- Run the local planner node -->
+  <node pkg="roborts_planning" type="local_planner_node" name="local_planner_node" respawn="false" />
+
+  <!-- Run the velocity converter node -->
+  <node pkg="roborts_planning" type="vel_converter" name="vel_converter_node" respawn="false" />
+
+  <!--Run the decision node -->
+  <node pkg="roborts_decision" type="behavior_test_node" name="behavior_test_node" respawn="false" output="screen" />
+  
+  
+  <node pkg="roborts_costmap" type="test_costmap" name="lidar_detection_node" respawn="false" />
+  
+  
+
+
+ 
+
+</launch>

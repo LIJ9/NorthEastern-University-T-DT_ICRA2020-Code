@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="labal_K">
+  <link
+    name="base">
+    <inertial>
+      <origin
+        xyz="-1.1289631580093E-17 -1.56524159470841E-17 0.00025"
+        rpy="0 0 0" />
+      <mass
+        value="0.01125" />
+      <inertia
+        ixx="2.1093984375E-05"
+        ixy="2.16840434497101E-22"
+        ixz="0"
+        iyy="2.1093984375E-05"
+        iyz="-8.27180612553028E-24"
+        izz="4.21875E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://small_car/meshes/base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://small_car/meshes/base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="labal_K">
+    <inertial>
+      <origin
+        xyz="-0.00593636363636365 -0.00982727272727275 0.00075"
+        rpy="0 0 0" />
+      <mass
+        value="0.00251878" />
+      <inertia
+        ixx="3.10862507284394E-06"
+        ixy="5.62450651563635E-07"
+        ixz="-5.53177034644836E-26"
+        iyy="1.58333517029848E-06"
+        iyz="-1.01605774278566E-24"
+        izz="4.69185529397575E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://small_car/meshes/labal_K.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://small_car/meshes/labal_K.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="labal_K"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="base" />
+    <child
+      link="labal_K" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <gazebo reference="labal_K"> 
+     <material>Gazebo/White </material>
+  </gazebo>
+  <gazebo reference="base"> 
+     <material>Gazebo/Yellow </material>
+  </gazebo>
+</robot>

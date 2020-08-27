@@ -1,0 +1,17 @@
+<!-- WL新建建图 -->
+<launch>
+  <master auto="start"/>
+  
+  <!-- Run the lidar -->
+  <include file="$(find roborts_bringup)/launch/lidar.launch" />
+
+
+  <!-- Run the slam gmapping -->
+  <include file="$(find roborts_bringup)/launch/slam_gmapping.xml"/>
+
+  <!-- Publish static tf -->
+  <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" args="0.275 0 0.19 0 0 0  /base_link /laser  100"/>
+  <include file="$(find roborts_bringup)/launch/static_tf.launch" />
+
+</launch>
+

@@ -1,0 +1,42 @@
+<launch>
+  <arg name="map" value="icra2020_zww"/>
+  <master auto="start"/>
+  <!--Run the robot model in rviz-->
+  <param name="/use_sim_time" value="true"/>
+  <arg name="gui" default="False" />
+  <param name="robot_description" textfile="$(find small_car)/robots/small_car.urdf" />
+  <param name="use_gui" value="$(arg gui)" />
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+  <!--Load parameters for localization node  -->
+  <rosparam command="load" file="$(find roborts_localization_blue1)/config/localization.yaml" />
+  <rosparam command="load" file="$(find roborts_localization_blue1)/amcl_blue1/config/amcl.yaml" />
+
+  <!-- Run the map server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find roborts_bringup)/maps/$(arg map).yaml" respawn="false" />
+
+  <!-- Run the stage simulator -->
+  <!-- <node pkg="stage_ros" type="stageros" name="stageros" args="$(find roborts_bringup)/worlds/$(arg map).world" respawn="false" >
+    <remap from="base_scan" to="scan" />
+    <param name="base_watchdog_timeout" value="0.01" />  
+  </node> -->
+
+  <!-- Run the localization node -->
+  <node pkg="roborts_localization_blue1" type="localization_node_blue1" name="localization_node_blue1" respawn="false" />
+
+  <!-- Run the global planner Node -->
+  <node pkg="roborts_planning_blue1" type="global_planner_blue1_node" name="global_planner_node_blue1" respawn="false" />
+
+  <!-- Run the local planner node -->
+  <node pkg="roborts_planning_blue1" type="local_planner_blue1_node" name="local_planner_node_blue1" respawn="false" />
+
+   <!-- Run the velocity converter node -->
+  <node pkg="roborts_planning_blue1" type="vel_converter_blue1" name="vel_converter_node_blue1" respawn="false" />
+  <!-- Run the rviz -->
+    <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find roborts_bringup)/rviz/navigate.rviz" /> -->  
+  <node pkg="roborts_decision_blue1" type="behavior_test_node_blue1" name="behavior_test_node_blue1" output="screen" respawn="false" />
+  <!--Run the BN area status simulation-->
+</launch>
+
+

@@ -1,0 +1,12 @@
+<!--WL新建仿真导航节点,不用于远程登录  -->
+<launch>
+  <include file="$(find roborts_bringup)/launch/roborts_stage.launch" />
+  
+  <!--Run the global planner test node -->
+  <!--node pkg="roborts_planning" type="global_planner_test" name="global_planner_test" respawn="false" /-->
+  
+  <!--Run the decision node -->
+  <node pkg="roborts_decision" type="behavior_test_node" name="behavior_test_node" respawn="false" />
+
+
+</launch>

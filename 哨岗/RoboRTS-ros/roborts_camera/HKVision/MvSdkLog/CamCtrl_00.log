@@ -1,0 +1,332 @@
+[2018-09-11 20:18:21] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-09-11 20:18:22] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-09-11 20:18:22] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[234862336]
+[2018-09-11 20:18:22] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[243255040]
+[2018-09-11 20:18:30] | CInterfaceManager.cpp-L4387: callback InnerGetOneFrameTimeout error![80000003]
+[2018-09-11 20:18:30] | CInterfaceManager.cpp-L1208: getfcnt [0], getfcntsucceed[0], totalRecv[0] 
+[2018-09-11 20:18:30] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-09-11 20:18:30] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-24 22:21:26] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-24 22:21:27] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-24 22:21:27] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-24 22:21:27] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1350572288]
+[2018-11-24 22:21:27] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1358964992]
+[2018-11-25 13:50:42] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 13:50:42] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 13:50:42] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 13:50:42] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[100644608]
+[2018-11-25 13:50:42] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[109037312]
+[2018-11-25 14:18:47] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:18:48] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 14:18:48] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 14:18:48] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-324061440]
+[2018-11-25 14:18:48] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-603982080]
+[2018-11-25 14:19:04] | CInterfaceManager.cpp-L1208: getfcnt [807], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 14:19:04] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-25 14:19:04] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-11-25 14:21:39] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:21:39] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:21:40] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 14:21:40] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 14:21:40] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 14:21:40] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1150244608]
+[2018-11-25 14:21:40] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1158637312]
+[2018-11-25 14:21:40] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 14:21:40] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[922736384]
+[2018-11-25 14:21:40] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[914343680]
+[2018-11-25 14:33:18] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:33:18] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:35:54] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:35:54] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:37:24] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:37:24] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:42:14] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:42:15] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:42:16] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 14:42:16] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 14:42:16] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 14:42:16] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 14:42:16] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1082136832]
+[2018-11-25 14:42:16] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1090529536]
+[2018-11-25 14:42:16] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 14:42:16] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1115707648]
+[2018-11-25 14:42:16] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1124100352]
+[2018-11-25 14:43:46] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:43:47] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:43:47] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 14:43:47] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 14:43:47] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 14:43:47] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 14:43:47] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-2127563008]
+[2018-11-25 14:43:47] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-2135955712]
+[2018-11-25 14:43:47] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 14:43:47] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1660933888]
+[2018-11-25 14:43:47] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1652541184]
+[2018-11-25 14:45:03] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:45:04] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:45:04] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 14:45:04] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 14:45:04] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 14:45:04] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 14:45:04] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[363128576]
+[2018-11-25 14:45:04] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[354735872]
+[2018-11-25 14:45:04] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 14:45:04] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-142612736]
+[2018-11-25 14:45:04] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-151005440]
+[2018-11-25 14:47:11] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:47:12] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:47:13] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 14:47:13] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 14:47:13] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 14:47:13] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 14:47:13] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[898152192]
+[2018-11-25 14:47:13] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[889759488]
+[2018-11-25 14:47:13] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 14:47:13] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[394258176]
+[2018-11-25 14:47:13] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[385865472]
+[2018-11-25 14:55:58] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 14:55:59] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:04:39] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:04:40] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:04:40] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:04:40] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:04:40] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 15:04:40] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:04:40] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[2023696128]
+[2018-11-25 15:04:40] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1946154752]
+[2018-11-25 15:04:40] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:04:40] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1920976640]
+[2018-11-25 15:04:40] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1912583936]
+[2018-11-25 15:04:56] | CInterfaceManager.cpp-L1208: getfcnt [953], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:04:56] | CInterfaceManager.cpp-L1208: getfcnt [15], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:04:56] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-25 15:04:56] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-11-25 15:04:57] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-25 15:04:57] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-11-25 15:05:14] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:05:15] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:05:15] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:05:15] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:05:15] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 15:05:15] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:05:15] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[444581632]
+[2018-11-25 15:05:15] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[436188928]
+[2018-11-25 15:05:15] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:05:15] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-2304]
+[2018-11-25 15:05:15] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-8395008]
+[2018-11-25 15:05:59] | CInterfaceManager.cpp-L1208: getfcnt [2980], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:05:59] | CInterfaceManager.cpp-L1208: getfcnt [43], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:05:59] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-11-25 15:05:59] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-25 15:06:00] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-25 15:06:00] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-11-25 15:06:04] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:06:05] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:06:05] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:06:05] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:06:05] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 15:06:05] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:06:06] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1578084096]
+[2018-11-25 15:06:06] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1569691392]
+[2018-11-25 15:06:06] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:06:06] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1132455680]
+[2018-11-25 15:06:06] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1140848384]
+[2018-11-25 15:06:39] | CInterfaceManager.cpp-L1208: getfcnt [2280], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:06:39] | CInterfaceManager.cpp-L1208: getfcnt [33], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:06:40] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-25 15:06:40] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-11-25 15:06:40] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-25 15:06:40] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-11-25 15:11:31] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:11:31] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:11:31] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:11:31] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:11:31] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 15:11:31] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:11:31] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-637556992]
+[2018-11-25 15:11:31] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-645949696]
+[2018-11-25 15:11:31] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:11:31] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-947919104]
+[2018-11-25 15:11:31] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-956311808]
+[2018-11-25 15:12:41] | CInterfaceManager.cpp-L1208: getfcnt [3508], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:13:23] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:16:55] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:16:55] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:16:56] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:16:56] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:16:56] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 15:16:56] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:16:56] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1888442112]
+[2018-11-25 15:16:56] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1677719296]
+[2018-11-25 15:16:56] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:16:56] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1652541184]
+[2018-11-25 15:16:56] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1644148480]
+[2018-11-25 15:17:31] | CInterfaceManager.cpp-L1208: getfcnt [483], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:17:32] | CInterfaceManager.cpp-L1208: getfcnt [34], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:21:57] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:21:58] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:21:58] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:21:58] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:21:58] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 15:21:58] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:21:58] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1825531648]
+[2018-11-25 15:21:58] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1833924352]
+[2018-11-25 15:21:58] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:21:58] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1593825024]
+[2018-11-25 15:21:58] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1585432320]
+[2018-11-25 15:22:36] | CInterfaceManager.cpp-L1208: getfcnt [2422], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:22:36] | CInterfaceManager.cpp-L1208: getfcnt [37], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:22:36] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-11-25 15:22:36] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-25 15:22:37] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-11-25 15:22:37] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-25 15:29:40] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:29:40] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:29:41] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:29:41] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:29:41] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 15:29:41] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:29:41] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[268433152]
+[2018-11-25 15:29:41] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[260040448]
+[2018-11-25 15:29:41] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:29:41] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[234862336]
+[2018-11-25 15:29:41] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[226469632]
+[2018-11-25 15:29:53] | CInterfaceManager.cpp-L1208: getfcnt [673], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:29:53] | CInterfaceManager.cpp-L1208: getfcnt [12], getfcntsucceed[0], totalRecv[0] 
+[2018-11-25 15:29:53] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-25 15:29:53] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-11-25 15:29:53] | CInterfaceManager.cpp-L4475: RecvThreadProcess exit
+[2018-11-25 15:29:53] | CInterfaceManager.cpp-L4323: DisplayProcess exit
+[2018-11-25 15:48:56] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:48:57] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:48:57] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:48:57] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:48:57] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 15:48:57] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:48:57] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-545265920]
+[2018-11-25 15:48:57] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-553658624]
+[2018-11-25 15:48:57] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:48:57] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-578836736]
+[2018-11-25 15:48:57] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-587229440]
+[2018-11-25 15:56:25] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:56:26] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 15:56:27] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:56:27] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 15:56:27] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 15:56:27] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:56:27] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 15:56:27] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[564586240]
+[2018-11-25 15:56:27] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[572978944]
+[2018-11-25 15:56:27] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[67106560]
+[2018-11-25 15:56:27] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[58713856]
+[2018-11-25 16:04:42] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:04:59] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:05:00] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:05:01] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:05:01] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:05:01] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 16:05:01] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:05:01] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1446369536]
+[2018-11-25 16:05:01] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1454762240]
+[2018-11-25 16:05:01] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:05:01] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1954552064]
+[2018-11-25 16:05:01] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1962944768]
+[2018-11-25 16:05:16] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:05:17] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:05:18] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:05:18] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:05:18] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 16:05:18] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:05:18] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-394012928]
+[2018-11-25 16:05:18] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-738199808]
+[2018-11-25 16:05:18] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:05:18] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-771770624]
+[2018-11-25 16:05:18] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-763377920]
+[2018-11-25 16:05:27] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:05:28] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:05:29] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:05:29] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:05:29] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 16:05:29] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:05:29] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-980777216]
+[2018-11-25 16:05:29] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:05:29] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-989169920]
+[2018-11-25 16:05:29] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1484790016]
+[2018-11-25 16:05:29] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1493182720]
+[2018-11-25 16:06:33] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:06:34] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:06:35] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:06:35] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:06:35] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 16:06:35] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:06:35] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[1101031168]
+[2018-11-25 16:06:35] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[1109423872]
+[2018-11-25 16:06:35] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:06:35] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[603977472]
+[2018-11-25 16:06:35] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[595584768]
+[2018-11-25 16:09:29] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:09:30] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:09:31] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:09:31] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:09:31] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 16:09:31] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:09:31] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-2080377088]
+[2018-11-25 16:09:31] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-2088769792]
+[2018-11-25 16:09:31] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:09:31] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-2122340608]
+[2018-11-25 16:09:31] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-2113947904]
+[2018-11-25 16:10:08] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:10:10] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:10:10] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:10:10] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:10:10] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 16:10:10] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:10:10] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[318756608]
+[2018-11-25 16:10:10] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[310363904]
+[2018-11-25 16:10:10] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:10:10] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[285185792]
+[2018-11-25 16:10:10] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-201328896]
+[2018-11-25 16:12:09] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:12:10] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:12:11] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:12:11] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:12:11] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 16:12:11] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:12:11] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1442859264]
+[2018-11-25 16:12:11] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1434466560]
+[2018-11-25 16:12:11] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:12:11] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1946159360]
+[2018-11-25 16:12:11] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1954552064]
+[2018-11-25 16:13:21] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:13:22] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:13:23] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:13:23] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:13:23] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 16:13:23] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:13:23] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-2088769792]
+[2018-11-25 16:13:23] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-2097162496]
+[2018-11-25 16:13:23] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:13:23] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-2122340608]
+[2018-11-25 16:13:23] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-2130733312]
+[2018-11-25 16:14:37] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:14:38] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:14:38] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:14:38] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:14:38] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 16:14:38] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:14:38] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1599416576]
+[2018-11-25 16:14:38] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1946159360]
+[2018-11-25 16:14:38] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:14:38] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-1971337472]
+[2018-11-25 16:14:38] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-1979730176]
+[2018-11-25 16:15:18] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:15:19] | CInterfaceManager.cpp-L4678: CamCtrl[2020009], U3V SDKVersion(1020009), DriverVersion(0)
+[2018-11-25 16:15:19] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:15:19] |         XmlParse.cpp-L2065: SetNodeValue [AutoExposureTimeLowerLimit], [Value = 1 must be equal or greater than Min = 40. : OutOfRangeException thrown in node 'AutoExposureTimeLowerLimit' while calling 'AutoExposureTimeLowerLimit.SetValue()' (file 'IntegerT.h', line 79)]
+[2018-11-25 16:15:19] |         XmlParse.cpp-L2256: SetNodeValue [ExposureAuto], [Node is not writable. : AccessException thrown in node 'ExposureAuto' while calling 'ExposureAuto.SetIntValue()' (file 'EnumerationT.h', line 83)]
+[2018-11-25 16:15:19] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:15:20] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-134220032]
+[2018-11-25 16:15:20] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-142612736]
+[2018-11-25 16:15:20] | CInterfaceManager.cpp-L1066: remalloc RecvBuf succeed, [616448]
+[2018-11-25 16:15:20] | CInterfaceManager.cpp-L4335: Camctrl RecvThread Start, ThreadId[-167790848]
+[2018-11-25 16:15:20] | CInterfaceManager.cpp-L4149: Camctrl DisplayThread Start, ThreadId[-176183552]

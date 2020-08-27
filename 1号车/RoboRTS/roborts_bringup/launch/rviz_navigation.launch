@@ -1,0 +1,7 @@
+<!--WL新建导航rviz节点  -->
+<launch>
+  <!-- Run the rviz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find roborts_bringup)/rviz/navigate.rviz" />
+
+
+</launch>

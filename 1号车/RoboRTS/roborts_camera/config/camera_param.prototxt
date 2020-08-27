@@ -1,0 +1,41 @@
+camera: {
+  camera_name: "back_camera0"
+  camera_type:"uvc"#"HKVision"
+  camera_path: "/dev/video0"
+
+  camera_matrix {
+	data:412.5659156404058
+	data:0.0
+	data:319.4718938207649
+	data:0.0
+	data:412.8527827301995
+	data:234.990454958528
+	data:0.0
+	data:0.0
+	data:1.0
+      } 
+      camera_distortion {
+	data:-0.3806166082322365
+	data:0.3714792223597521
+	data:0.00127177017876891
+	data:-0.003229764345839723
+	data:-1.074945234688841
+      }
+
+  resolution {
+    width: 640
+    height: 480#360#?
+
+    width_offset: 0
+    height_offset: 0
+  }
+
+  fps: 40
+  auto_exposure: 1
+  exposure_value: 40#5000#10#70
+  #2:RED:9000 #2 NOW PROGRAM BLUE 9000
+  exposure_time: 10
+  auto_white_balance: 1
+  auto_gain: 1#0
+
+}

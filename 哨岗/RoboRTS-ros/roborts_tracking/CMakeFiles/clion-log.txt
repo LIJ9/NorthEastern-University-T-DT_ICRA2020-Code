@@ -1,0 +1,30 @@
+/home/tdt/clion-2018.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/tdt/roborts_ws/src/RoboRTS/roborts_tracking
+-- Using CATKIN_DEVEL_PREFIX: /home/tdt/roborts_ws/src/RoboRTS/roborts_tracking/devel
+-- Using CMAKE_PREFIX_PATH: 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/tdt/roborts_ws/src/RoboRTS/roborts_tracking/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+Traceback (most recent call last):
+  File "/home/tdt/roborts_ws/src/RoboRTS/roborts_tracking/catkin_generated/generate_cached_setup.py", line 20, in <module>
+    from catkin.environment_cache import generate_environment_script
+ImportError: No module named catkin.environment_cache
+CMake Error at /opt/ros/kinetic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+  execute_process(/usr/bin/python
+  "/home/tdt/roborts_ws/src/RoboRTS/roborts_tracking/catkin_generated/generate_cached_setup.py")
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/all.cmake:198 (safe_execute_process)
+  /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:5 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/tdt/roborts_ws/src/RoboRTS/roborts_tracking/CMakeFiles/CMakeOutput.log".
+See also "/home/tdt/roborts_ws/src/RoboRTS/roborts_tracking/CMakeFiles/CMakeError.log".

@@ -1,0 +1,8 @@
+prefix=/home/tdt/roborts_ws/src/RoboRTS/roborts_tracking/devel
+
+Name: roborts_tracking
+Description: Description of roborts_tracking
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/tdt/roborts_ws/src/RoboRTS/roborts_tracking/devel/lib 
+Requires: 

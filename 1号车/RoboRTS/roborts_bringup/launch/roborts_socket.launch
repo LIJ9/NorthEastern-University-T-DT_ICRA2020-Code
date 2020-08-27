@@ -1,0 +1,5 @@
+<launch>
+  <master auto="start"/>
+  <node pkg="udp_socket" type="udp_send" name="udp_send"  output="screen" respawn="false"/>
+  <node pkg="udp_socket" type="udp_recv" name="udp_recv"  output="screen" respawn="false"/>
+</launch>

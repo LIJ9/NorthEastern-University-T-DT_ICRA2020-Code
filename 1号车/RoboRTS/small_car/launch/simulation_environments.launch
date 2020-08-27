@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<launch>
+<!-- these are the arguments you can pass this launch file, for example gui:=true -->
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+  <!-- launch the ICRA RM AI challenge 3D map in gazebo -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch"> 
+    <arg name="world_name" value="$(find small_car)/worlds/icra_1.world"/>
+    <arg name="debug" value="$(arg debug)" />
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="paused" value="$(arg paused)"/>
+    <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+    <arg name="headless" value="$(arg headless)"/>
+  </include>
+  <node
+    name="tf_footprint_base"
+    pkg="tf"
+    type="static_transform_publisher"
+    args="0 0 0 0 0 0 base_link base_footprint 40" />
+  <!-- <group ns="red_car1">
+    <param name="tf_prefix" type="string" value="red_car1" />
+    <param name="robot_description"
+        command="$(find xacro)/xacro
+        $(find small_car)/robots/red_car1.xacro ns:=red_car1"
+    />
+    <node name="spawn_model" pkg="gazebo_ros" type="spawn_model"
+      args="-file $(find small_car)/robots/red_car1.xacro
+      -urdf
+      -x  0.5
+      -y  1.5
+      -z  0
+      -R 0
+      -P 0
+      -Y 1.57
+      -model red_car1"
+      respawn="false"
+      output="screen" />
+      <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+        <param name="publish_frequency" type="double" value="50.0" />
+        <remap from="lidar_Link" to="red_car1/lidar_Link" />
+      </node>
+  </group> -->
+
+
+
+
+
+
+
+
+
+
+
+      <node name="spawn_model" pkg="gazebo_ros" type="spawn_model"
+      args="-file $(find small_car)/robots/red_car1.xacro
+      -urdf
+      -x 0.5
+      -y 0.5
+      -z 0
+      -R 0
+      -P 0
+      -Y 1.57
+      -model red_car1"
+      respawn="false"
+      output="screen" />
+
+
+
+<!--   <group ns="red_car2">
+    <param name="tf_prefix" type="string" value="red_car2" />
+    <param name="robot_description"
+        command="$(find xacro)/xacro
+        $(find small_car)/robots/red_car2.xacro ns:=red_car2"
+    />
+    <node name="spawn_model" pkg="gazebo_ros" type="spawn_model"
+      args="-file $(find small_car)/robots/red_car2.xacro
+      -urdf 
+      -x 0.5
+      -y 4.6
+      -z 0
+      -R 0
+      -P 0
+      -Y 0
+      -model red_car2"
+      respawn="false"
+      output="screen" />
+      <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+        <param name="publish_frequency" type="double" value="50.0" />
+        <remap from="lidar_Link" to="red_car2/lidar_Link" />
+      </node>
+  </group>  -->
+
+
+
+
+
+
+
+
+
+
+
+    <group ns="blue_car1">
+    <param name="tf_prefix" type="string" value="blue_car1" />
+    <param name="robot_description"
+        command="$(find xacro)/xacro
+        $(find small_car)/robots/blue_car1.xacro ns:=blue_car1"
+    />
+    <node name="spawn_model" pkg="gazebo_ros" type="spawn_model"
+      args="-file $(find small_car)/robots/blue_car1.xacro
+      -urdf 
+      -x 7.6
+      -y 0.5
+      -z 0
+      -R 0
+      -P 0
+      -Y 3.14
+      -model blue_car1"
+      respawn="false"
+      output="screen" />
+
+      <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+        <param name="publish_frequency" type="double" value="50.0" />
+        <remap from="lidar_Link" to="blue_car1/lidar_Link" />
+      </node>
+  </group>
+
+
+  
+
+<!-- <group ns="blue_car2">
+    <param name="tf_prefix" type="string" value="blue_car2" />
+    <param name="robot_description"
+        command="$(find xacro)/xacro
+        $(find small_car)/robots/blue_car2.xacro ns:=blue_car2"
+    />
+    <node name="spawn_model" pkg="gazebo_ros" type="spawn_model"
+      args="-file $(find small_car)/robots/blue_car2.xacro
+      -urdf 
+      -x 7.6
+      -y 4.6
+      -z 0
+      -R 0
+      -P 0
+      -Y -1.57
+      -model blue_car2"
+      respawn="false"
+      output="screen" />
+      <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+        <param name="publish_frequency" type="double" value="50.0" />
+        <remap from="lidar_Link" to="blue_car2/lidar_Link" />
+      </node>
+  </group>   -->
+
+
+  <node
+    name="fake_joint_calibration"
+    pkg="rostopic"
+    type="rostopic"
+    args="pub /calibrated std_msgs/Bool true" />
+
+
+</launch>

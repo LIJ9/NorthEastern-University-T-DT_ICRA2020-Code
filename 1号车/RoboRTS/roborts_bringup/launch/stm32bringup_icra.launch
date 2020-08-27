@@ -1,0 +1,15 @@
+<launch>
+  <node name="bringup_pose_icra" pkg="serial" type="bringup_pose_icra" output="screen">
+   	<param name="angular_scale" type="double" value="1.0" />
+   	<param name="linear_scale" type="double" value="1.0" />
+	<remap from="base_link" to="base_footprint"/> 
+  </node>
+<node name="add_bullet" pkg="serial" type="add_bullet" output="screen" />
+<node pkg="tf" type="static_transform_publisher" name="base_footprint_to_baselink" args="0 0 0 0 0 0  /base_footprint /base_link  100"/>
+<node name="serial" pkg="serial" type="serial" />
+<node name="recv" pkg="serial" type="recv" />
+<node name="usart" pkg="serial" type="usart" />
+<node name="usart_ch" pkg="serial" type="usart_ch" />
+<!--node name="serial_ch" pkg="serial" type="serial_ch" /-->
+<node name="sendn" pkg="serial" type="sendn" />
+</launch>
